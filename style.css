@@ -1,0 +1,126 @@
+*{
+    padding:0px;
+    margin:0;}
+
+body
+{
+    background-image:url(background2.jpg);
+   
+   background-position:top ;
+   background-repeat: no-repeat;
+   background-size:cover;
+    font-family:sans-serif;
+    box-sizing:border-box; 
+    height: 100%;
+    margin:0;   
+  }
+    .menu-bar
+    {
+        background: #eaaeae;
+        text-align:center;
+        border-style: groove;
+        border-width: 4px;
+        border-color: blanchedalmond;
+       border-radius: 50px 00px 50px 00px;
+    }
+    .menu-bar ul
+    {
+        display:inline-flex;
+        list-style:none;
+        color:#17c1e2;
+    }
+    .menu-bar ul li
+    { 
+        height:30px;
+        width:100px;
+        margin:5px;
+        padding:3px;
+    }
+    .menu-bar ul li a
+    {
+        text-decoration:none;
+        color:#17c1e2;
+       
+    }
+    .active,.menu-bar ul li:hover
+    {
+        background:#d3a0ea;
+        border-radius: 50px ;
+        font-style: italic; 
+        border-style: groove;
+        border-color: blanchedalmond;
+        border-width: 3px;
+       
+    }
+        
+    
+
+.menu-bar .fa
+    {
+        color:whitesmoke;
+        font-size: 15px;
+        height:10px;
+        width: 20px;
+        margin-left:2px;
+        
+    }
+    .sub-menu-1
+    {
+display:none;
+    }
+    .menu-bar ul li:hover .sub-menu-1
+    {
+        display:block;
+        position:absolute;
+        border-style: groove;
+        border-color:blanchedalmond ;
+        border-radius: 50px 0px;
+        background-color: #eaaeae ;
+    
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul
+    {
+        display:block;
+        margin:4px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li
+    {
+        height:30px;
+        width:80px;
+        padding:5px;
+        border-bottom:2px dotted black;
+         border-radius:50px ;
+        text-align:left;
+    
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+    {
+      border-bottom:none;
+    }
+
+    
+    .menu-bar ul li:hover .sub-menu-1 ul li a:hover
+    {
+        background-color:aqua;
+        
+    }
+    .fa-angle-right
+    {
+        float:right;
+    }
+    .sub-menu-2
+    {
+        display:none;
+    }
+    .hover-me:hover .sub-menu-2
+    {
+        position:absolute;
+        display:block;
+        margin:9px;
+        padding:9px;
+        background:#eaaeae;
+        border-style: groove;
+        border-color:blanchedalmond ;
+        border-radius: 50px 0px;
+
+    }
